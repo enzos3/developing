@@ -4,16 +4,16 @@ const WorldCard3 = ({ onClose }) => {
   };
 
   return (
-    <div class='fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50'>
-      <div class='max-w-lg w-full mx-4 bg-white rounded-lg overflow-hidden shadow-lg'>
-        <div class='p-6'>
-          <h1 class='text-3xl text-grey-800 font-bold text-center mb-4'>
+    <div className='fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50'>
+      <div className='max-w-lg w-full mx-4 bg-white rounded-lg overflow-hidden shadow-lg'>
+        <div className='p-6'>
+          <h1 className='text-3xl text-grey-800 font-bold text-center mb-4'>
             SEO Developer - Fullstack Developer
           </h1>
-          <h2 class='text-xl text-grey-800 text-center mb-6'>
+          <h2 className='text-xl text-grey-800 text-center mb-6'>
             SOUP Agency LTDA | January 2022 - June 2023
           </h2>
-          <p class='text-gray-800 text-center mb-8'>
+          <p className='text-gray-800 text-center mb-8'>
             The Haircare E-Commerce project is an online platform that offers a
             wide range of hair care products. Developed with modern technologies
             like React, Node.js, and MongoDB, it prioritizes user-friendliness
@@ -28,12 +28,12 @@ const WorldCard3 = ({ onClose }) => {
               href='https://pumphaircare.com/'
               rel='noopener'
               target='_blank'
-              class='inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'>
+              className='inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'>
               Link to proyect
             </a>
             <button
               onClick={handleCloseClick}
-              class='inline-block px-6 py-2 text-white bg-blue-500 hover:bg-blue-600 rounded-full'>
+              className='inline-block px-6 py-2 text-white bg-blue-500 hover:bg-blue-600 rounded-full'>
               Close
             </button>
           </div>

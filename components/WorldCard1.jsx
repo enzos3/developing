@@ -4,16 +4,16 @@ const WorldCard = ({ onClose }) => {
   };
 
   return (
-    <div class='fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50'>
-      <div class='max-w-lg w-full mx-4 bg-white rounded-lg overflow-hidden shadow-lg'>
-        <div class='p-6'>
-          <h1 class='text-3xl text-grey-800 font-bold text-center mb-4'>
+    <div className='fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50'>
+      <div className='max-w-lg w-full mx-4 bg-white rounded-lg overflow-hidden shadow-lg'>
+        <div className='p-6'>
+          <h1 className='text-3xl text-grey-800 font-bold text-center mb-4'>
             Developer
           </h1>
-          <h2 class='text-xl text-grey-800 text-center mb-6'>
+          <h2 className='text-xl text-grey-800 text-center mb-6'>
             Autodidact | January 2020 - Today
           </h2>
-          <p class='text-gray-800 text-center mb-8'>
+          <p className='text-gray-800 text-center mb-8'>
             Experienced Autodidact Frontend Developer proficient in HTML5, CSS,
             JavaScript, ReactJS, SASS, Redux, TypeScript, and Next.js. Skilled
             in creating responsive designs, implementing state management, and
@@ -24,7 +24,7 @@ const WorldCard = ({ onClose }) => {
           <div className='flex flex-row justify-around'>
             <button
               onClick={handleCloseClick}
-              class='inline-block px-6 py-2 text-white bg-blue-500 hover:bg-blue-600 rounded-full'>
+              className='inline-block px-6 py-2 text-white bg-blue-500 hover:bg-blue-600 rounded-full'>
               Close
             </button>
           </div>
