@@ -31,7 +31,7 @@ const Hero = () => (
         <img
           src='/cover.png'
           alt='cover'
-          className='w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative'
+          className='w-[500px] sm:w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative'
         />
       </motion.div>
     </motion.div>

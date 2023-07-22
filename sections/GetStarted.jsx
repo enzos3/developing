@@ -10,7 +10,7 @@ import { startingFeatures } from "../constants";
 
 const GetStarted = () => (
   <section
-    className={`${styles.padding} relative z-10 mt-24 pt-24 mb-72 ml-5`}
+    className={`${styles.padding} relative z-10 mt-4 pt-24 mb-28 ml-5`}
     id='about'>
     <motion.div
       variants={staggerContainer}
@@ -24,7 +24,7 @@ const GetStarted = () => (
         <img
           src='/get-started.png'
           alt='get-started'
-          className='w-[90%] h-[90%] object-contain'
+          className='w-[60%] h-[60%] object-contain sm:w-[90%] sm:h-[90%]'
         />
       </motion.div>
       <motion.div

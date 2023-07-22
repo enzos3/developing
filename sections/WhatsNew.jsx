@@ -10,7 +10,7 @@ import { newFeatures } from "../constants";
 
 const WhatsNew = () => (
   <section
-    className={`${styles.padding} relative z-10 pt-14 mb-48 ml-5`}
+    className={`${styles.padding} relative z-10 pt-14 mb-24 ml-5`}
     id='studies'>
     <motion.div
       variants={staggerContainer}
@@ -35,7 +35,7 @@ const WhatsNew = () => (
         <img
           src='/whats-new.png'
           alt='whats-new'
-          className='w-[90%] h-[90%] object-contain'
+          className='w-[60%] h-[60%] sm:w-[90%] sm:h-[90%] object-contain'
         />
       </motion.div>
     </motion.div>
