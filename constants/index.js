@@ -41,7 +41,7 @@ export const newFeatures = [
   {
     imgUrl: "/vrpano.svg",
     title: "4-016 A. M. Arboit",
-    subtitle: "Highschool | Electician Technician",
+    subtitle: "Highschool | Electrician Technician",
   },
   {
     imgUrl: "/vrpano.svg",
